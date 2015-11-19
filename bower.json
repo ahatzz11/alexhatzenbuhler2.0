@@ -1,0 +1,16 @@
+{
+  "name": "alexhatzenbuhler2.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ahatzz11/alexhatzenbuhler2.0",
+  "authors": [
+    "Alex Hatzenbuhler <alex.hatzenbuhler@target.com>"
+  ],
+  "description": "my site",
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "~0.11.4",
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5",
+    "fontawesome": "~4.4.0"
+  }
+}
