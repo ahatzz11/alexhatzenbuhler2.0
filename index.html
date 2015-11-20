@@ -11,11 +11,11 @@
 
  -->
 <html>
-<html lang="en">
+<head>
 	<meta charset="utf-8">
 	<title>Alex Hatzenbuhler</title>
-	<meta name="description" content="The personal site for Alex Hatzenbuhler: Developer. Tech Writer. music. games. android. beer." />
-	<meta name="author" content="Alex Hatzenbuhler">
+	<meta description="The personal site for Alex Hatzenbuhler: Developer. Tech Writer. music. games. android. beer." />
+	<meta author="Alex Hatzenbuhler">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href="http://fonts.googleapis.com/css?family=Dosis:800|Lato:400,700|Roboto:100,700" rel="stylesheet" type="text/css" />
 	<link rel="icon" href="images/favicon2.ico" type="image/png" />
@@ -23,34 +23,31 @@
 	<!-- set the width of the viewport to the device width, for mobile -->
 	<meta name="viewport" content="width=device-width", initial-scale=1 />
 
-
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/js/bootstrap.js">
-	<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
-	<link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
-	
-
-    <!-- 498877842.af0945c.317e1c1706824deb8dc902a721e43637 -->
-    
-
-	
-	<!-- JAVASCRIPT -->
-	<!-- jquery libraries -->
-    <script src="javascript/jquery/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="javascript/jquery/jquery.localScroll.min.js" type="text/javascript"></script>
-    <script src="javascript/jquery/jquery.scrollTo.min.js" type="text/javascript"></script>
-
-    <!-- navigation bar script -->
-    <script async src="javascript/navigation.js" type="text/javascript"></script>
-
-
-	
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!--  material bootstrap & custom css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css">
 
 </head>
-<body>
+<body ng-app="hatz" ng-controller="MainController">
+<p>test</p>
+	<!-- all of the contents are injected here! -->
+	<div ng-view></div>
 
-	
+	<!-- jQuery & scroll scripts -->
+    <script src="bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+
+	<!-- angularjs goodies -->
+	<script src="bower_components/angular/angular.js" type="text/javascript"></script>
+	<script src="bower_components/angular-animate/angular-animate.js" type="text/javascript"></script>
+	<script src="bower_components/angular-route/angular-route.js" type="text/javascript"></script>
+	<script src="bower_components/angular-aria/angular-aria.js" type="text/javascript"></script>
+	<script src="bower_components/angular-material/angular-material.js" type="text/javascript"></script>
+
+	<script src="app.js" type="text/javascript"></script>
+
+	<script src="controllers/controllers.module.js" type="text/javascript"></script>
+	<script src="controllers/mainController.js" type="text/javascript"></script>
 </body>
 </html>
