@@ -35,7 +35,7 @@
         {
             "name": "PokéDex",
             "link": "https://github.com/ahatzz11/PoxeDex",
-            "Description": [
+            "description": [
                 "The web app and backend database for a pokédex",
                 "Languages: Java; SQL"
             ]
