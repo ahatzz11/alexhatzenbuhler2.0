@@ -1,10 +1,15 @@
-<div class="containter">
+<div class="container">
 <div class="row">
-<div class="col-md-6">
-	<p>THIS IS A TEST</p>
+<div class="col-md-12" ng-repeat="project in projects">
+
+	<div>
+		<h1>{{project.name}}</h1>
+		<h4>{{project.link}}</h4>
+		<div ng-repeat="description in project.descriptions">
+			<h4>{{description}}</h4>
+		</div>
 	</div>
-	<div class="col-md-6">
-	<p>THIS IS A TEST</p>
-	</div>
+
+</div>
 </div>
 </div>

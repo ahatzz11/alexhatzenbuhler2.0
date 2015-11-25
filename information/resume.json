@@ -1,0 +1,95 @@
+{
+  "resume": {
+    "education": {
+      "North Dakota State University": {},
+      "Normandale Community College ": {}
+    },
+    "work history": [
+      {
+        "name": "Moolah",
+        "start date": "January 2014",
+        "end date": "October 2014",
+        "position": [
+          {
+            "title": "Head of Customer Service",
+            "description": [
+              "Demonstrated leadership by hiring and managing a staff of 4 to provide 24-hour customer support",
+              "Utilized strong critical thinking by developing a training program on customer supprt for new agents",
+              "Displayed organizational skills by preparing and managing 750 Bitcoin ($450,000) worth of investments during our public investment rounds",
+              "Applied previous interpersonal and customer service skills to provide support to clients who experienced problems using Moolah services"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NDSU Information Technology Services",
+        "start date": "Febuary 2013",
+        "end date": "August 2014",
+        "position": [
+          {
+            "title": "IVN Technician",
+            "description": [
+              "Utilized technical skills by maintaining and troubleshooting video conference calls between colleges"
+            ]
+          },
+          {
+            "title": "Classroom Technician",
+            "description": [
+              "Developed problem solving and computer skills by providing technical support for instructors encountering technical issues with computers, projects, and other peripherals",
+              "Demonstrated flexibility and adaptability by working on many different technical issues throughout the school"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Best Buy",
+        "start date": "October 2013",
+        "end date": "January 2014",
+        "position": [
+          {
+            "title": "Mobile Sales Speciailist - Seasonal",
+            "description": [
+              "Showcased technical knowledge of mobile devices and other electronics by informing customers about products",
+              "Improved interpersonal skills by dealing with customers to offer exceptional service"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nickelodeon Universe",
+        "start date": "June 2012",
+        "end date": "February 2014)",
+        "position": [
+          {
+            "title": "Ride Operator",
+            "description": [
+              "Demonstrated responsibility by ensuring the safety of guests as they move throughout the park and go on rides"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "YMCA Camp Warren",
+        "start date": "June 2010",
+        "end date": "August 2010",
+        "position": [
+          {
+            "title": "Summer Camp Counselor",
+            "description": [
+              "Showcased flexibility and adaptability as a cabin leader for 10-12 children, ages 8-13, in two week intervals",
+              "Improved interpersonal and leadership skills by co-leading camp activities and guiding newer staff"
+            ]
+          }
+        ]
+      }
+    ],
+    "involvement": [
+      "ACM (Association for Computing Machinery), Member (2012 –Present)",
+      "Eagle Scout awarded in June 2007 by Boy Scouts of America Troop 293 in Apple Valley, MN"
+    ],
+    "languages and technologies": [
+      "Java; HTML5; CSS3; Javascript; XML; C#; C++",
+      "Eclipse; Netbeans; Android Studio; Visual Studio; Git; Spring; Angular"
+    ]
+  }
+}
