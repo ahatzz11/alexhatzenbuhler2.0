@@ -18,6 +18,10 @@
 
     	loadProjects(data, $scope);
 
+
+    	//var stuff = $scope.dataForm.input.text;
+    	//$scope.text = $scope.dataForm.text;
+
     };
 
     function createJson() {
