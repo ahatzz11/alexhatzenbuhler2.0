@@ -1,9 +1,9 @@
 <div class="container">
 <div class="row">
-<div class="col-md-12" ng-repeat="project in projects">
+<div class="col-md-10 col-md-offset-1" ng-repeat="project in projects">
 
 	<div>
-		<h1>{{project.name}}</h1>
+		<h3>{{project.name}}</h3>
 		<h4>{{project.link}}</h4>
 		<div ng-repeat="description in project.descriptions">
 			<h4>{{description}}</h4>
