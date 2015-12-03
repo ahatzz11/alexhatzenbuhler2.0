@@ -98,7 +98,7 @@
               '"name": "This Site!",' +
               '"link": "https://github.com/ahatzz11/alexhatzenbuhler",' +
               '"descriptions": [' +
-                '"his site originally started as an assignment for a class I took in college called Intro to Web Design. I decided to continue to add and polish it into what you see today!",' +
+                '"This site originally started as an assignment for a class I took in college called Intro to Web Design. I decided to continue to add and polish it into what you see today!",' +
                 '"Languages: HTML5; CSS3; JavaScript; jQuery",' +
                 '"Interested in some more cool stuff? Enter the konami code anywhere on this page"' +
               ']' +
