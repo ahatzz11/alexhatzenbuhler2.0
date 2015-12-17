@@ -17,15 +17,15 @@
 		$routeProvider
 	  	  .when('/', {
 		    templateUrl: 'templates/main.html',
-		    controller: 'MainController'
+		    controller: 'MainController',
 		  })
-		  .when('/1', {
-		    templateUrl: 'templates/test.html',
-		    controller: 'MainController'
+		  .when('/advent', {
+		    templateUrl: 'templates/advent.html',
+		    controller: 'AdventController',
 		  });
 
 
 		  console.log("Route configured");
-	}
+	};
 
 })();
